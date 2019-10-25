@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+                android:id="@+id/tab_A"
+                android:title="A"
+                android:icon="@drawable/selector_d"
+                app:showAsAction="ifRoom"
+                android:checked="true"
+               />
+
+        <item
+                android:id="@+id/tab_B"
+                android:title="B"
+                android:icon="@drawable/selector_b"
+                app:showAsAction="ifRoom"
+                android:checked="true"
+               />
+
+        <item
+                android:id="@+id/tab_C"
+                app:showAsAction="ifRoom"
+                android:icon="@drawable/selector_c"
+                android:title="C"
+                android:checked="true"
+               />
+
+        <item
+                android:id="@+id/tab_D"
+                android:icon="@drawable/selector_a"
+                android:title="D"
+                app:showAsAction="ifRoom"
+                android:checked="true"
+               />
+</menu>
